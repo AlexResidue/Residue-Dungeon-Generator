@@ -29,7 +29,7 @@ Grid structure of segment occupation in dungeon layout restricts possible entran
 ## Adding new segments  
 Example segment:  
 <img src="Images/Seg.jpg">  
-This segment occupies six cells (Unity’s grid can be adjusted to match the one used to design a segment) and has six openings so this segment branches the dungeon.  All openings are connectible, of the same type(generic) and have same altitude (0). Occupation grid’s origin is the cell with entrance (faced down) so this segment can be mapped like this:  
+This segment occupies six cells (Unity’s grid can be adjusted to match the one used to design a segment) and has six openings so this segment branches the dungeon.  All openings are connectible, of the same type(generic) and have same altitude (0). Occupation grid’s origin is the cell with entrance (from bottom up) so this segment can be mapped like this:  
 <img src="Images/SegMapped.jpg">  
 The above information then can be added to the static constructor of the SegmentCodex (template can be used):  
 <img src="Images/Codex.bmp">  
