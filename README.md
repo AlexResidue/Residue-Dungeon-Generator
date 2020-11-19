@@ -3,7 +3,7 @@
 Residue Dungeon Generator is a Unity module designed to map out and build segment-based dungeons at runtime. Shape, complexity, length, and linearity of the dungeon are defined by generation settings while user retains full control over individual segment’s design including shape, decorations, events, enemy spawns, etc.  
 
 ## How it works:
-User designs and registers a number of possible game level pieces (cave sections/castle rooms/underground ruins). This module then can be used mid-game to generate a full level with specified length and complexity. The structure plan is arranged in a tree so that the user is able to modify sequences of segments prior to building.  
+User designs and registers a number of possible game level pieces (cave sections/castle rooms/underground ruins). This module then can be used mid-game to generate a full level with specified length and structural complexity. The structure plan is arranged in a tree so that the user is able to modify sequences of segments prior to building.  
 
 ## Generation settings:  
 <img src="Images/Settings.bmp">
